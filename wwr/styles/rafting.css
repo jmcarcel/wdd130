@@ -13,6 +13,22 @@ header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 10px 20px;
+}
+/*header nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    margin: 10px 0px 0px;
+    border: #08330e 2px solid;
+    background-color: var(--accent1-color);
+} */
 .hero{
     position: relative;
 }
@@ -24,6 +40,10 @@ header{
 h1{
     position: absolute;
     color: var(--accent1-color);
+    font-size: 70px;
+    top: 10%;
+    right: 25%;
+    text-align: center;
 }
 article{
     background-color: white;
