@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="White Water Rafting contact information">
+    <meta name="author" content="Joan Carcel">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/z-crossedoars.jpeg" alt="Logo" width="200">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>  
+    </header>
+    <main>
+        <form action="contact.php">    
+            <div class="company-info">
+                <h2>Company Information</h2>
+                <p>Address: 100 Cityview St.</p>
+                <p>Phone Number: 518 293 3072</p>
+                <p>Email: waterrafting@raftingco.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d107198.44230584927!2d-60.71925076614429!3d-32.89945525450761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1739824978224!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>                    
+            <div class="information">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="useremail">Email Address:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
+            <fieldset class="form-group">
+                <legend>Purpose of Message:</legend>
+                <label for="purpose-inquiry">General Inquiry</label>
+                <input type="radio" id="purpose-inquiry" name="purpose" value="inquiry" required> 
+                <label for="purpose-reservation">Reservation Question</label>
+                <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                <label for="purpose-suggestion">Website Suggestion</label>
+                <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                <label for="Message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message here"></textarea>
+                <label for="subscribe-me">Please subscribe me to the monthly newslatter</label>
+                <input type="checkbox" id="subscribe-me" name="subscribe-me">    
+            </fieldset>
+            <button type="submission">Send Message</button>
+        </form>           
+            <div class="employee-images">
+                <img src="wwr/images/John Steward.jpg" alt="John Stewart">
+                <figcaption>John Steward (employee)</figcaption>
+                <img src="wwr/images/Emily Hunter.jpg" alt="Emily Hunter">
+                <figcaption>Emily Hunter (employee)</figcaption>
+                <img src="wwr/images/Ken Adams.webp" alt="Ken Adams">
+                <figcaption>Ken Adams (employee)</figcaption>
+            </div>    
+    </main>
+    <footer>
+        <p>©2025 White Water Rafting Joan Carcel</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebooklogo_icon.webp" alt="Facebook" width="20">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x_newlogo.png" alt="X" width="20">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/logo_instagram.webp" alt="Instagram" width="20">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
