@@ -38,10 +38,11 @@ header nav{
     height: auto;
 }
 h1{
-    position: relative;
+    position: absolute;
+    left: 30%;
     color: var(--secondary-color);
     font-size: 60px;
-    top: 50%;
+    top: 20%;
     text-align: center;
 }
 form h1{
@@ -174,10 +175,8 @@ input[type="checkbox"] {
     background-color: #fff;
 }
 button {
-    display:flex;
-    justify-content: center;
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 1em;
     background-color: rgb(19, 95, 12);
     color: #fff;
